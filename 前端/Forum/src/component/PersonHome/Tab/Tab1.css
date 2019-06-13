@@ -1,0 +1,57 @@
+.Tab1-wrapper{
+    padding: 4%;
+}
+
+.T1-tip{
+    width:90%;
+    margin:0 auto;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom:2%;
+}
+
+.T1-portrait img{
+    width:30%;
+    height:20%;
+    size:100%;
+    margin:3%;
+    border-radius: 2%;
+}
+
+.T1-info{
+    width:50%;
+    position:absolute;
+    top:30%;
+    left:40%;
+}
+.T1-info span{
+    margin-right:6%;
+    font-size:16px;
+    border-radius: 4px;
+    padding:4px;
+}
+
+.T1-info a{
+    position: absolute;
+    font-size:14px;
+    right:0.5%;
+    top:20%;
+}
+
+.T1-abstract{
+    width:50%;
+    height:40%;
+    position:absolute;
+    top:60%;
+    left:40%;
+}
+
+.T1-abstract p{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align:justify!important;
+    font-size:14px;
+}

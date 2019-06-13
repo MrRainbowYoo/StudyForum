@@ -1,0 +1,106 @@
+.TipList-wrapper{
+    margin:0 auto;
+    margin-top: 200px;
+    background-color:rgb(241, 238, 238);
+    padding:3%;
+    border-radius: 10px;
+}
+
+.TipList-tip{
+    width:90%;
+    margin:0 auto;
+    background-color: #ffffff;
+    margin-bottom:2%;
+    padding:1% 2%;
+    cursor: pointer;
+}
+
+.TipList-portrait{
+    border-bottom:0.5px solid #EFEFEF;
+}
+.TipList-tip img{
+    width:3%;
+    height:3%;
+    margin:1% 1% 1% 6%; 
+    border-radius: 50%;
+}
+
+/*.Tiplist-nickname{*/
+    /*margin-left:10%;*/
+    /*margin-top:-7%;*/
+    /*font-size:14px;*/
+/*}   */
+
+/*.Tiplist-tiptime{*/
+    /*margin-left:14%;*/
+    /*font-size:12px;*/
+/*}*/
+
+/*.Tiplist-tiptime span{*/
+    /*color:lightslategray;*/
+/*}*/
+
+.Tiplist-name {
+    color: #3d3d3d;
+    font-size: 14px;
+}
+
+.Tiplist-time {
+    color: #8A8A8A;
+    border-left: 1px solid #E0E0E0;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.Tiplist-topic {
+    /*float: right;*/
+    width: 10%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #7584ff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Tiplist-title{
+   margin-left:6%;
+   /*margin-top:2%;*/
+   margin-bottom:1%;
+   /*padding-top:2%;*/
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Tiplist-context {
+    margin-left:6%;
+    font-size: 14px;
+    color: #8A8A8A;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.Tiplist-share{
+    margin-left:6%;
+    margin-top:1%;
+}
+
+.Tiplist-share span{
+    margin-right:3%;
+    margin-left:1%;
+}
+
+.Tiplist-dolike{
+    margin-left:90%;
+    margin-top:-2%;
+}
+
+.Tiplist-dolike span{
+    margin-right: 8%;
+    margin-left: 3%;
+}

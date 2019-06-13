@@ -1,0 +1,20 @@
+#components-layout-demo-top .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+.H-content{
+    margin: 0 auto;
+    /*width: 80vw;*/
+    margin-top: 20px;
+}
+
+ul.ant-rate.ant-rate-disabled {
+    font-size: 15px;
+}
+.ant-card-cover img{
+    height:160px;
+}

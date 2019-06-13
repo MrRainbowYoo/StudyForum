@@ -1,0 +1,113 @@
+.L-body{
+    min-width: 1200px;
+    width: 100%;
+    height: 1000px;
+    background:url("../../assets/Login/Login_bg.jpg") no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+    overflow: hidden;
+    opacity: 0.85;
+}
+.L-wrapper{
+    /* position: absolute; */
+    margin:0 auto;
+    margin-right:8%;
+    /* border:1px solid black; */
+    width:330px;
+    /* height:30vw; */
+    border-radius: 4px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+}
+.L-slogan1{
+    width:45%;
+    position: absolute;
+    left:18%;
+    top:35%;
+    font-size:2rem;
+    font-family: Microsoft Yahei;
+    color:#ffffff;
+}
+.L-slogan2{
+    position: absolute;
+    width:45%;
+    left:35%;
+    top:42%;
+    font-size:2rem;
+    font-family: Microsoft Yahei;
+    color:#ffffff;
+}
+
+.L-body .ant-tabs-nav.ant-tabs-nav-animated {
+    width: 100%;
+}
+
+
+.L-body .ant-tabs-tab {
+    width: 50%;
+    text-align: center;
+}
+
+.L-body .ant-tabs-nav .ant-tabs-tab{
+    margin:0;
+    padding:16px;
+
+}
+
+.ant-tabs-nav-container{
+    font-size:16px;
+}
+
+
+
+form.ant-form.ant-form-horizontal {
+	margin:0 auto;
+	margin-top: 30px;
+	width:80%;
+
+}
+.ant-tabs-bar.ant-tabs-top-bar {
+    margin-bottom: 0;
+}
+
+span.ant-input-affix-wrapper {
+	font-size: 16px;
+    height: 40px;
+    margin-top:20px;
+}
+
+span.ant-input-password.ant-input-affix-wrapper {
+	margin-top: 20px;
+}
+
+button.ant-btn.ant-btn-primary.ant-btn-block {
+	margin-top: 20px;
+	height: 40px;
+	font-size: 16px;
+}
+
+input#usr_name {
+	text-align: center;
+}
+
+input#usr_password {
+	text-align: center;
+}
+
+label.ant-checkbox-wrapper {
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.ant-form label {
+    font-size: 12px;
+}
+
+.ant-row.ant-form-item {
+    margin-bottom: 10px;
+}
+
+.ant-form-explain {
+    margin-left: 10px;
+    font-size: 8px;
+}

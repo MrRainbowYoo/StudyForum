@@ -1,0 +1,36 @@
+.Tab4-wrapper{
+    padding: 4%;
+}
+
+.T4-tip{
+    width:90%;
+    margin:0 auto;
+    padding:4%;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom:2%;
+}
+
+.Tab4-checkprivacy{
+    margin-top:5%;
+    margin-left:10%;
+}
+
+.Tab4-checkprivacy section{
+    margin:10px;
+}
+.Tab4-checkprivacy a{
+    color:#BFBFBF;
+    position: absolute;
+    left: 34%;
+    font-size:10px;
+}
+button.ant-switch-small.ant-switch {
+    margin-top: 2px;
+    position: absolute;
+    left: 30%;
+}
+
+.Tab4-title1{
+    font-size:20px;
+}

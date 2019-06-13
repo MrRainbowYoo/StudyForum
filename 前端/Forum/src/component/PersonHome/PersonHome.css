@@ -1,0 +1,73 @@
+.P-wrapper{
+    margin:0 auto;
+    margin-top: 70px;
+}
+
+.ant-layout-header {
+    height: 200px;
+    background: url("../../assets/nav/background.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 0 55%;
+}
+
+.P-portrait{
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;;
+    top:20%;
+}
+
+.P-portrait img{
+    height: 100%;
+    width: 100%;
+}
+
+/* .P-portrait:hover{
+    opacity: 0.4;
+    z-index: 1000;
+
+} */
+
+.P-nickname{
+    position: relative;
+    text-align: center;
+    top:18%;
+    font-size:30px;
+    color: #ffffff;
+}
+.P-nickname span{
+    /* background:lightskyblue; */
+    padding:3px;
+    border-radius: 3px;
+}
+.P-school{
+    position: relative;
+    text-align: center; 
+    font-size:16px;
+    color: #ffffff;
+}
+.P-school span{
+    background:lightskyblue;
+    padding:3px;
+    border-radius: 3px;
+}
+.ant-tabs-tab {
+    width: 10%;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    padding: 20px 0px;
+    font-size:14px;
+}
+
+.P-wrapper .ant-tabs-tab {
+    width: 35%;
+    text-align: center;
+}
+
+.P-wrapper .ant-tabs-nav .ant-tabs-tab{
+    margin:0;
+    padding:16px;
+
+}

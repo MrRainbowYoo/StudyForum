@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.H-Nav {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    background: url("../../assets/nav/background.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 0 58%;
+}
+
+.H-Nav .navbar{
+    width: 100%;
+    height: 60px;
+    background: hsla(0,0%,100%,.4);
+}
+
+.H-Nav .navbar .navbar-wrap{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.H-Nav .navbar-left {
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+    cursor: pointer;
+    color: #99a2aa;
+    /*background-color: #969696;*/
+}
+
+.H-Nav .navbar-left:hover{
+    background-color: #d7dce2;
+}
+
+.H-Nav .navbar-right {
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    float: right;
+    /*background-color: #969696;*/
+}
+
+.H-Nav .navbar-right li {
+    height: 60px;
+    list-style: none;
+    padding: 0 2%;
+    float: right;
+    /*cursor: pointer;*/
+}
+
+.H-Nav .navbar-right li:hover{
+    background-color: #d7dce2;
+}
+
+.H-Nav .add {
+    width: 25%;
+    background-color: #6095ba;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.H-Nav .navbar-right .add:hover{
+    background-color: #7584ff;
+}
+
+.H-Nav .background-bar {
+    width: 100%;
+    height: 118px;
+    padding-top: 58px;
+    /*background-color: #c7dbff;*/
+    box-shadow: 0 5px 5px -1px rgba(181, 181, 181, 0.89);
+}
+
+/*.H-Nav .search {*/
+    /*width: 30%;*/
+    /*position: absolute;*/
+    /*right: 10%;*/
+    /*top: 90px;*/
+/*}*/
+
+.H-Nav .avatar-li {
+    /*border-radius: 50%;*/
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+    position: relative;
+}
+
+.H-Nav .avatar-li:hover {
+    background:none !important;
+}
+
+.H-Nav .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    /*position: relative;*/
+}
+
+.H-Nav .avatar:hover {
+    /*border: 1px solid #6095ba;*/
+}
+
+/*.H-Nav .avatar:hover .pop-info{*/
+    /*display: block;*/
+/*}*/
+
+.H-Nav .avatar-li:hover .pop-info{
+    display: block !important;
+}
+
+.pop-info {
+    display: none;
+    cursor: auto;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: -80px;
+    z-index: 10001;
+}
+
+.pop-info h2{
+    font-size: 14px;
+}
+
+.pop-info #center {
+    color: #979797;
+}
+
+.pop-info-quit {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    /*text-align: right;*/
+    background-color: #d3dfea;
+}
+
+#pop-quiz {
+    float: right;
+    margin-right: 5px;
+    color: #333333;
+}

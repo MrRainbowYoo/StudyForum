@@ -1,0 +1,153 @@
+.Pe-topBar {
+    width: 100%;
+    height: 130px;
+    background: url("../../assets/nav/background.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 0 58%;
+}
+
+.Pe-main {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 190px;
+    border: 1px solid #e1e2e5;
+    box-shadow: 0 2px 4px rgba(0,0,0,.14);
+    background: #fafafa;
+    border-radius: 4px;
+}
+
+.Pe-title {
+    height: 32px;
+    text-align: center;
+    /*background: rgba(255, 255, 255, 0.2);*/
+    margin: 16px 0 0 0;
+    color: #99a2aa;
+    font-size: 16px;
+    border-bottom: 1px solid #e1e2e5;
+}
+
+.ant-menu-item {
+    padding-left: 45px !important;
+    margin: 0 !important;
+    height: 60px !important;
+    line-height: 60px !important;
+}
+
+.ant-menu-item:hover {
+    background-color: rgba(139, 149, 157, 0.29);
+    color: rgba(0,0,0,0.65);
+}
+
+.ant-menu-item-selected {
+    background-color: #00a1d7 !important;
+    color: #ffffff !important;
+    font-size: 14px;
+}
+
+.ant-menu-item-selected::after {
+    border-right: none !important;
+}
+
+.Pe-rightTitle {
+    height: 48px;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e1e2e5;
+    font-size: 16px;
+    color: #00a1d6;
+    font-weight: bold;
+}
+
+.Pe-form {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(153, 162, 170, 0.51);
+    padding-bottom: 30px;
+}
+
+.form-item {
+    margin-top: 25px;
+    /*height: 30px;*/
+    line-height: 30px;
+}
+
+.form-item .form-title {
+    width: 95px;
+    text-align: right;
+    margin-right: 20px;
+    float: left;
+    line-height: 30px;
+    padding: 0;
+}
+
+.form-item .input-name-text {
+    width: 50%;
+    margin-top: 0 !important;
+}
+
+.form-item .form-account-text {
+    font-size: 14px;
+    color: #898989;
+}
+
+.form-item TextArea {
+    resize: none;
+    width: 70%;
+}
+
+#save-btn {
+    width: 100px;
+    margin: 30px auto 0;
+}
+
+.face-tool {
+    height: 200px;
+    /*border: 1px solid #99a2aa;*/
+    text-align: center;
+}
+
+.face-tool .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #99a2aa;
+}
+
+.m-wrap {
+    position: relative;
+    height: 36px;
+    margin: 5px 5px 0 5px;
+    display: flex;
+}
+
+#uploadFile {
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 32px;
+    display: block;
+}
+
+.m-btn {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #00a1d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00a1d7;
+    color: #fff;
+    CURSOR: POINTER;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.show-Spin {
+    width: 100px;
+    float: right;
+}

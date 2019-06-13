@@ -1,0 +1,118 @@
+.H-header{
+    padding:0 2% 2% 2%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 180px;
+    background:#f0f2f5;
+    flex-direction: column;
+}
+
+.H-header .head{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.H-header .head .more{
+    position:absolute;
+    right:14%;
+    padding-top:15px;
+}
+
+.H-header .main{
+    display: flex;
+    flex: 7;
+}
+
+.H-header .slideshow{
+    height: 100%;
+    width: 45%;
+    background-color: black;
+    position:relative;
+    overflow: hidden;
+}
+
+.H-header .slideshow .slides{
+    height: 100%;
+    width: 600%;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+
+.H-header .slideshow .slide{
+    height: 100%;
+    width: 16.666666%;
+    display: inline-block;
+}
+
+.H-header .slide img{
+    height: 100%;
+    width: 100%;
+}
+
+.H-header .sections{
+    height: 100%;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+
+.H-header .sections .up{
+    height: 48%;
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.H-header .sections .down{
+    height: 48%;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.H-header .sections .section{
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+    background-color:#ffffff;
+    display: flex;
+    margin-right: 0;
+    position: relative;
+    cursor: pointer;
+}
+.H-header .sections .section span{
+    position: absolute;
+    top:80%;
+    left:24%;
+    color:#ffffff;
+}
+
+
+.H-header .sections #s1{
+    background-image: url('../../assets/header/react-icon.jpg') ;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+.H-header .sections #s2{
+    background-image: url('../../assets/header/java-icon.jpg') ;
+    background-size: 70%;
+    background-position: 50%;
+}
+.H-header .sections #s3{
+    background-image: url('../../assets/header/python-icon.jpg') ;
+    background-size: 100%;
+    background-position: 20%;
+}
+
+.H-header .sections #s4{
+    background-image: url('../../assets/header/vue-icon.jpg');
+    background-size: 100%;
+    background-position: 80% 60%;
+}
